@@ -1,7 +1,7 @@
 <div align="center">
 
   # PETRIUM TECH
-  ### Enterprise Software Engineering & Digital Holding
+  ### Engenharia de Software Corporativa, Cibersegurança & Holding Digital
 
   <p align="center">
     <em>Sólida como a rocha. Resiliente por arquitetura.</em>
@@ -9,9 +9,9 @@
 
   <!-- Badges Tecnológicos -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Security-Zero_Trust_Architecture-00D2FF?style=for-the-badge&logo=shield&logoColor=white" alt="Security" />
-    <img src="https://img.shields.io/badge/Cloud-Edge_Infrastructure-0A1128?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-    <img src="https://img.shields.io/badge/Status-Operating_in_Production-2ea44f?style=for-the-badge" alt="Production" />
+    <img src="https://img.shields.io/badge/Seguran%C3%A7a-Zero_Trust_Architecture-0066FF?style=for-the-badge&logo=shield&logoColor=white" alt="Security" />
+    <img src="https://img.shields.io/badge/Infraestrutura-Cloudflare_Edge-0A1128?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+    <img src="https://img.shields.io/badge/Status-Operando_em_Produ%C3%A7%C3%A3o-2ea44f?style=for-the-badge" alt="Production" />
   </p>
 
 </div>
@@ -20,68 +20,80 @@
 
 ### 🏛️ Sobre o Grupo Petrium
 
-A **PETRIUM TECH** é o braço de engenharia de software, inovação e arquitetura digital da **PETRIUM GROUP TECNOLOGIA LTDA**. 
+A **PETRIUM TECH** é o braço de engenharia, governança e desenvolvimento de tecnologia da **PETRIUM GROUP TECNOLOGIA LTDA**.
 
-Desenvolvemos plataformas escaláveis, soluções de cibersegurança e produtos digitais corporativos de alta performance. Operamos sob os pilares da solidez estrutural, integridade de dados e proteção ativa contra falhas.
+Concebemos, operamos e escalamos soluções SaaS proprietárias, ecossistemas digitais de alta performance e projetos de missão crítica corporativos. Todas as nossas arquiteturas são orientadas à segurança defensiva, tolerância a falhas e integridade estrita de dados.
 
 ```
                     ┌──────────────────────────────────────────────┐
                     │          PETRIUM GROUP TECNOLOGIA            │
-                    │         Holding & Digital Governance         │
+                    │         Holding & Governança Digital         │
                     └──────────────────────┬───────────────────────┘
                                            │
-         ┌─────────────────────────────────┼─────────────────────────────────┐
-         ▼                                 ▼                                 ▼
-   [LARALUNA]                      [PETRIUM LABS]                 [VL FISIOTERAPIA]
-Next-Gen Ticketing &           Software sob Encomenda &          Saúde & Bem-Estar com
-Event Management Engine         Auditoria de CyberSec            Infraestrutura Digital
+         ┌───────────────────┬─────────────┴───────┬───────────────────┐
+         ▼                   ▼                     ▼                   ▼
+    [LARALUNA]      [PETRIUM SECURITY]     [PETRIUM STUDIO]    [VL CLINIC OS]
+    Bilhetagem &       Engenharia de         Web Design &       Sistema Vertical
+    Ecossistema        Cibersegurança        Design Systems      de Gestão para
+    de Eventos         e Hardening          de Alta Performance     Clínicas
 ```
 
 ---
 
-### 🚀 Nossos Produtos e Operações
+### 🚀 Divisões Técnicas e Produtos Proprietários
 
-| Operação | Segmento | Status | Descrição |
+| Operação / Divisão | Segmento | Status | Descrição |
 | :--- | :--- | :---: | :--- |
-| **[LaraLuna](https://laraluna.com.br)** | Ticketing & Eventos | `Em Lançamento` | Plataforma digital de intermediação e emissão de ingressos com split automatizado de pagamentos e segurança anti-fraude. |
-| **Petrium Labs** | Software House & Cloud | `Ativo` | Desenvolvimento sob demanda de APIs, microsserviços, automações corporativas e consultoria em segurança da informação. |
-| **[VL Estética e Fisioterapia](https://vlfisioterapia.com.br)** | Saúde & Terapias | `Ativo` | Operação de fisioterapia e estética especializada com gestão e ecossistema digital garantidos pela Petrium Tech. |
+| **[LaraLuna](https://laraluna.com.br)** | Bilhetagem & Eventos | `Em Produção` | Plataforma completa de gestão de eventos, venda de ingressos com split dinâmico de pagamentos via PIX, proteção antifraude e controle de lotes. |
+| **[CheckinGuard](https://petriumtech.com.br)** | Controle de Acesso | `Em Produção` | Motor de validação de ingressos e credenciamento *offline-first*, desenvolvido para operar em portarias de alta densidade mesmo sem conexão de internet. |
+| **[VL Clinic OS](https://petriumtech.com.br)** | Saúde & Gestão Clínica | `Em Produção` | Sistema vertical completo (SaaS) para clínicas de fisioterapia e estética avançada, com prontuário digital seguro, gestão financeira e agendamentos. |
+| **[Petrium Security](https://security.petriumtech.com.br)** | Engenharia & CyberSec | `Ativo` | Divisão especializada em arquitetura de software resiliente, auditoria de código, segurança ofensiva/defensiva e mitigação de vulnerabilidades. |
+| **[Petrium Studio](https://studio.petriumtech.com.br)** | UI/UX & Web Design | `Ativo` | Divisão focada na concepção de interfaces digitais de alta conversão, portais corporativos modernos, Design Systems e identidades visuais de elite. |
 
 ---
 
 ### 🛡️ Stack Tecnológica & Princípios de Engenharia
 
-Projetamos sistemas com arquitetura modular, conteinerizada e distribuída em borda (edge):
+Projetamos sistemas com arquitetura modular, conteinerizada e distribuída em nuvem:
 
 ```yaml
-Infraestrutura & Cloud:
-  - Servidores: Linux KVM Dedicated Virtual Environments
-  - CDN & Edge: Cloudflare (Workers, R2 Object Storage, Pages)
+Infraestrutura & Nuvem:
+  - Servidores: Ambientes Linux Dedicados KVM com Docker Engine
+  - Rede & Borda: Cloudflare (DNS Anycast, Pages, Workers, WAF)
   - Conteinerização: Docker & Docker Compose
-  - Segurança de Borda: WAF, DDoS Mitigation, SSL/TLS Rigoroso
+  - Proteção Perimetral: Mitigação de DDoS, Políticas Zero-Trust e SSL/TLS Rigoroso
 
 Engenharia de Software:
-  - Backend: Node.js / TypeScript, Python, Golang
-  - Bancos de Dados: PostgreSQL, Redis (Caching de Baixa Latência)
-  - Frontend: Arquiteturas Reativas Modernas, Mobile-First
-  - Integrações: Webhooks, Gateways de Pagamento com Split, OTP/2FA
+  - Backend: Node.js / TypeScript, Python e Golang
+  - Bancos de Dados: PostgreSQL (Relacional Robusto) e Redis (Cache em Memória)
+  - Frontend: Next.js (App Router), Tailwind CSS e interfaces reativas modernas
+  - Integrações Críticas: Gateways de pagamento (Asaas PIX/Split), SMTP Relay e OTP/2FA
 ```
 
 ---
 
-### 🔒 Governança e Segurança
+### 🔒 Governança e Cibersegurança
 
-Todos os códigos, repositórios e projetos mantidos sob a organização **@petrium-tech** seguem diretrizes restritas de segurança:
+Todos os códigos, repositórios e serviços mantidos sob a organização **@petrium-tech** seguem padrões rigorosos:
 * Princípio do Menor Privilégio (*Least Privilege Access*);
-* Sanitização rigorosa de entradas e prevenção contra vulnerabilidades OWASP Top 10;
-* Gestão segura de segredos via variáveis de ambiente criptografadas e CI/CD protegido;
-* Conformidade contínua com a LGPD (Lei Geral de Proteção de Dados).
+* Proteção estrita contra vulnerabilidades do OWASP Top 10;
+* Gestão segura de chaves criptográficas e variáveis de ambiente isoladas;
+* Conformidade integral com a LGPD (Lei Geral de Proteção de Dados).
+
+---
+
+### 📬 Canais Oficiais de Contato
+
+* **Institucional & Novos Negócios:** [contato@petriumtech.com.br](mailto:contato@petriumtech.com.br)
+* **Engenharia & Arquitetura:** [dedeus.lucas@petriumtech.com.br](mailto:dedeus.lucas@petriumtech.com.br)
+* **Infraestrutura & NOC:** [infra@petriumtech.com.br](mailto:infra@petriumtech.com.br)
+* **Portal Oficial:** [https://petriumtech.com.br](https://petriumtech.com.br)
 
 ---
 
 <div align="center">
 
   <sub>© 2026 <strong>PETRIUM GROUP TECNOLOGIA LTDA</strong> (PETRIUM TECH) • Todos os direitos reservados.</sub><br>
-  <sub>Sede Operacional: Brasil • Engenharia e Governança Digital</sub>
+  <sub>Brasil • Engenharia de Software, Segurança e Governança Digital</sub>
 
 </div>
